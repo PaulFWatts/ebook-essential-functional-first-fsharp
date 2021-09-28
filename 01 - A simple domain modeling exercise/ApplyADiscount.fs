@@ -4,7 +4,6 @@ open System
 
 type RegisteredCustomer = {Id : string}
 type UnregisteredCustomer = {Id : string}
-
 type Customer = 
     | EligibleRegistered of RegisteredCustomer
     | Registered of RegisteredCustomer
